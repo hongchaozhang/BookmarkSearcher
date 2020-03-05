@@ -15,10 +15,5 @@ Install the extension in a debug mode.
 
 ## Note
 
-If the `option+B` doesn't work, you can reset the shortcut in [chrome://extensions](chrome://extensions):
-
-1. Open [chrome://extensions](chrome://extensions)
-2. Open extension settings by clicking the top left button
-3. enter shortcut settings page
-4. reset the shortcut
+If the `option+B` doesn't work, you can reset the shortcut in [chrome://extensions/shortcuts](chrome://extensions/shortcuts).
 
