@@ -1,0 +1,28 @@
+{
+  "name": "My Bookmarks",
+  "version": "1.3",
+  "description": "A browser action with a popup dump of searching all bookmarks, sort the results according to the number they match the input key words.",
+  "permissions": [
+    "bookmarks"
+  ],
+  "browser_action": {
+      "default_title": "My Bookmarks",
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+  },
+  "icons": {
+    "48": "icon.png"
+  },
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'",
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Alt+B",
+        "windows": "Alt+B",
+        "mac": "Alt+B",
+        "linux": "Alt+B"
+      }
+    }
+  }
+}
