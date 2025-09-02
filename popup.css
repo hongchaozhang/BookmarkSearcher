@@ -1,3 +1,22 @@
 li.selected {
   background-color: grey;
 }
+
+input {
+  width: 100%;
+}
+
+.bookmark-container {
+  padding-top: 10px;
+}
+
+/* Remove default padding and margin from ul and li to eliminate white space */
+ul {
+  margin: 0;
+  padding-left: 20px; /* Keep some padding for bullet points */
+}
+
+li {
+  margin: 0;
+  padding: 2px 0; /* Add small vertical padding for better readability */
+}
